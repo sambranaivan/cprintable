@@ -19,6 +19,7 @@ class CreateModelosTable extends Migration
             $table->string('code');
             $table->string('personaje');
             $table->string('variacion');
+            $table->string('status')->default('listo');
             $table->string('link')->nullable();
         });
     }
