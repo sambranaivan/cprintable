@@ -20,40 +20,40 @@ class DatabaseSeeder extends Seeder
         DB::table('modelos')->delete();
     	
         $m = new Modelo;
-        $m->persoje = "Goku Black";
-        $m->cariacion = "Super Saiyan Rose";
+        $m->personaje = "Goku Black";
+        $m->variacion = "Super Saiyan Rose";
         $m->code = "GB_ROSE";
-        $m->video = "https://www.youtube.com/watch?v=TW-7qHhuroM";
+        // $m->video = "https://www.youtube.com/watch?v=TW-7qHhuroM";
         $m->save();
 
         $m = new Modelo;
         $m->personaje = "Goku Black";
-        $m->cariacion = "Base";
+        $m->variacion = "Base";
         $m->code = "GB_BASE";
         $m->save();
 
         $m = new Modelo;
         $m->personaje = "Vegeta";
-        $m->cariacion = "Android Saga";
+        $m->variacion = "Android Saga";
         $m->code = "VGT_Android";
         $m->save();
 
         $m = new Modelo;
         $m->personaje = "Gohan";
-        $m->cariacion = "Super Saiyan 2";
+        $m->variacion = "Super Saiyan 2";
         $m->code = "GHN_SSJ2";
         $m->save();
 
         $m = new Modelo;
         $m->personaje = "Trunks";
-        $m->cariacion = "Saiyan Armor";
+        $m->variacion = "Saiyan Armor";
         $m->code = "TKS_Saiyan";
         $m->save();
 
         
         $m = new Modelo;
         $m->personaje = "Goku";
-        $m->cariacion = "Ultra Instinct";
+        $m->variacion = "Ultra Instinct";
         $m->code = "goku_ultra";
         $m->save();
     }

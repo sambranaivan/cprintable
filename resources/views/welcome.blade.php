@@ -12,7 +12,8 @@
                     <div class="col col-md-4">
                         <div class="card">
                         
-                            <h2>{{$model->titulo}}</h2>
+                            <h2 class="text-center">{{$model->personaje}}</h2>
+                            <label class="label text-center text-muted">{{$model->variacion}}</label>
 
                         
                             
